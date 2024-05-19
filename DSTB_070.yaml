@@ -194,6 +194,19 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
+- name: ASvrNS2_Edu_IP1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
 - name: ASvrDO_XCP-UTU_IP1
   type: trojan
   server: 104.18.56.56
@@ -379,6 +392,19 @@ proxies:
 - name: ASvrDO_Zoom_H2
   type: trojan
   server: marketplacefront-cf.zoom.us
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO_Edu_IP1
+  type: trojan
+  server: 104.17.3.81
   port: 443
   password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
   udp: true
@@ -584,6 +610,19 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa1.dstb.cloud
+- name: ASvrNS1_Edu_IP1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
 - name: ASvrRM1_XCP-UTU_IP1
   type: trojan
   server: 104.18.56.56
@@ -769,6 +808,19 @@ proxies:
 - name: ASvrRM1_Zoom_H2
   type: trojan
   server: marketplacefront-cf.zoom.us
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: ASvrRM1_Edu_IP1
+  type: trojan
+  server: 104.17.3.81
   port: 443
   password: b58f40b1-2b64-4af8-85d2-90c375198764
   udp: true
